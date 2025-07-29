@@ -2,11 +2,11 @@ services:
   - type: web
     name: umkm-backend
     env: docker
-    region: oregon
+    region: singapore
     plan: free
     branch: master
-    rootDir: be
-    dockerfilePath: be/Dockerfile
+    rootDir: backend
+    dockerfilePath: backend/Dockerfile
 
     envVars:
       - key: APP_ENV
